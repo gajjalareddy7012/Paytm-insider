@@ -59,3 +59,4 @@ spec:
         name: cpu
         targetAverageUtilization: 50
       type: Resource
+      name: aravind
