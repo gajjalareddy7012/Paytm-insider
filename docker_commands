@@ -1,0 +1,22 @@
+
+# For All our Docker Image's, Iam maintained in DockerHUb Public Repositories.
+
+# First we need to Authenticate with Repository(DockerHUb), using below cmd
+ 
+ docker login -u <username> -p <password>
+ 
+ # After login successful, we can build the image
+ 
+ # create image with help of docker file
+ 
+ # syntax
+ docker build -t <repodetails>/ <appname>:<version>
+ 
+ docker built -t dockerhudson/maven-web-application:latest
+ 
+ # upload image into Repository (dockerhub)
+ 
+    docker push dockerhudson/maven-web-application:latest
+    
+# pull the image into docker 
+
