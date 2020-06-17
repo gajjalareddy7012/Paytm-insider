@@ -19,4 +19,6 @@
     docker push dockerhudson/maven-web-application:latest
     
 # pull the image into docker 
+  
+    docker pull dockerhudson/maven-web-application:latest
 
